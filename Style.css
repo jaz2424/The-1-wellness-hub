@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom, #eff6ff, #ffffff);
+  color: #334155;
+  text-align: center;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 14px 32px;
+  border-radius: 999px;
+  border: none;
+  background: #bfdbfe;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pillars, .grid {
+  display: grid;
+  gap: 24px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.pillars {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 24px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.03);
+}
+
+.method {
+  background: #eff6ff;
+}
+
+.affirmations {
+  background: #eff6ff;
+}
+
+footer {
+  padding: 40px;
+  font-size: 0.85rem;
+  color: #64748b;
+}
